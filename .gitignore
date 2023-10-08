@@ -1,6 +1,6 @@
 # ignoere .log files
 * .log
-* vscode
+/vscode
 # => comment
 * =>  all (0 or mare) character e t c . . .
 ? =>  one(1) Charater or single character
