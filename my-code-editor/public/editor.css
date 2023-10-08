@@ -1,0 +1,9 @@
+.editor {
+  border: 1px solid #ccc;
+  padding: 10px;
+  min-height: 300px;
+}
+
+.staging-area {
+  margin-top: 10px;
+}

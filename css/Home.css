@@ -1,0 +1,180 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a background color to the body */
+body {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    #175d69 23%,
+    #330c43 95%
+  ); /* You can change the color as needed */
+  font-family: Arial, sans-serif; /* Choose your preferred font */
+}
+
+/* Header styles */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  /* background-color: #291952; Header background color */
+
+  color: #fff; /* Header text color */
+  padding: 20px 0; /* Add padding to the top and bottom of the header */
+}
+
+/* Navigation menu styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; /* Add horizontal padding to the navigation menu */
+}
+
+/* Logo styles */
+.logo {
+  font-size: 24px;
+}
+/* Style for the circular logo container */
+/* Style for the circular logo container */
+.logo-circle {
+  width: 80px; /* Adjust the size of the circle */
+  height: 80px; /* Adjust the size of the circle */
+  background-color: #333; /* Background color of the circle */
+  border-radius: 50%; /* Create a circular shape */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the logo image within the circle */
+.logo-image {
+  width: 100%; /* Make the image fill the circle */
+  height: 100%; /* Make the image fill the circle */
+  border-radius: 50%; /* Maintain a circular shape */
+}
+
+/* Style for the logo text */
+.logo-text {
+  float: right;
+  color: #00ffc3; /* Text color */
+  font-size: 12px; /* Adjust the font size */
+  margin-left: 5px; /* Adjust the spacing between the circle and text */
+}
+
+
+
+/* Navigation links styles */
+.links {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Add space between navigation links */
+}
+
+.links li {
+  position: relative;
+}
+
+.links a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.links a:hover {
+  color: #860a75d0; /* Change link color on hover */
+  box-shadow: 0 0px 15px 6px #4e0e7685;
+
+}
+
+/* Hamburger menu styles */
+#menu-toggle {
+  display: none;
+}
+
+#hamburger-btn {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 30px;
+  z-index: 1000;
+}
+
+#hamburger-btn svg {
+  display: none;
+  fill: #fff;
+  transition: fill 0.3s ease; /* Smooth fill transition on hover */
+}
+
+#menu-toggle:checked + #hamburger-btn svg {
+  fill: #51067f; /* Change fill color when the checkbox is checked */
+}
+
+/* Hero section styles */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px; /* Add padding around the hero section */
+}
+
+/* Hero text styles */
+.hero {
+  flex: 1;
+  max-width: 50%; /* Adjust the width as needed */
+}
+
+.hero h2 {
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.hero p {
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+/* Hero image styles */
+.img img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Button styles */
+.buttons a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4e1b508d; /* Button background color */
+  color: #fff; /* Button text color */
+  text-decoration: none;
+  margin-right: 10px; /* Add space between buttons */
+  transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+}
+
+
+.buttons a:hover {
+  background-color: #1715809e; /* Change button background color on hover */
+  box-shadow: 0 0px 15px 6px  #175d69;
+  box-shadow: 0 0px 15px 6px  #9606e3aa;
+}
+
+/* Additional styles for specific elements */
+.signin {
+  background-color: #333;
+}
+
+.signup {
+  background-color: #7b00ff;
+  color: #333;
+}
