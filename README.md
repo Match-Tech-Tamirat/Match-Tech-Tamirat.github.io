@@ -41,3 +41,4 @@ The Match-Tech Technology logo is a harmonious blend of technology and sustainab
 - For digital applications, always use high-resolution versions of the logo to preserve its intricate details.
 
 The Match-Tech Technology logo serves as a powerful symbol of progress, innovation, and a sustainable future. It embodies the company's mission to shape a world where technology enhances lives while preserving our planet.
+ # thanks
